@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-color: #111D29;
+    color: #fff;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.radius {
+    border-radius: 30% 70% 70% 30% / 75% 52% 48% 25%; /* https://9elements.github.io/fancy-border-radius */
+    width: 500px;
+    height: 500px;
+    background: rgb(63,94,251);
+    background: linear-gradient(rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); /* https://cssgradient.io/ */
+}

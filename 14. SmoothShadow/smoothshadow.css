@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-color: #ededed;
+    color: #fff;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.smooth-shadow {
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    background-color: #8741D9;
+    box-shadow:
+            17.7px 20.6px 20.9px rgba(0, 0, 0, 0.023),
+            31.4px 36.5px 30.7px rgba(0, 0, 0, 0.043),
+            42.3px 49.2px 37.8px rgba(0, 0, 0, 0.063),
+            55.4px 64.4px 47.4px rgba(0, 0, 0, 0.085),
+            105px 122px 80px rgba(0, 0, 0, 0.14); /* https://shadows.brumm.af/ */
+}

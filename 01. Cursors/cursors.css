@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-color: #111D29;
+    color: #fff;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.default-cursor {
+    background-color: #F8E04A;
+}
+
+.image-cursor {
+    background-color: #8741D9;
+    cursor: url('cysecor.png'), auto;
+}
+
+.emoji-cursor {
+    background-color: #F05473;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍺</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.help-cursor {
+    background-color: #D98741;
+    cursor: help;
+}
+
+.crosshair-cursor {
+    background-color: #b1d237;
+    cursor: crosshair;
+}

@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-color: #111D29;
+    color: #fff;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.main-wrapper {
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.section {
+    scroll-snap-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #de5448;
+    color: #fff;
+    font-size: 3em;
+}
+
+.orange {
+    background-color: #D98741;
+}
+
+.purple {
+    background-color: #8741D9;
+}
+
+.red {
+    background-color: #F05473;
+}

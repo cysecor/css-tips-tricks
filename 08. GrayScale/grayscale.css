@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-color: #111D29;
+    color: #fff;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 30px;
+}
+
+img {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
